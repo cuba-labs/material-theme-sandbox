@@ -1,5 +1,5 @@
 @import "variables.scss";
-@import "../valo/valo.scss";
+@import "../halo/halo.scss";
 
 $v-included-components: remove($v-included-components, button);
 $v-included-components: remove($v-included-components, panel);
@@ -38,7 +38,7 @@ $v-included-components: remove($v-included-components, panel);
 
 @import "cards.scss";
 @mixin material {
-  @include valo;
+  @include halo;
   @include functions;
   @include globals;
   @include cards;
